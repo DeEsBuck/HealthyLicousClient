@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	tools:context=".HealthyActivity" >
+    
+    <LinearLayout
+    android:weightSum="90"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:orientation="horizontal">
+        
+    <ImageButton
+        	android:background="@drawable/grau"
+        	android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="30" 
+			android:id="@+id/ibt_einstellungen"
+			android:text="Tagesplan"
+			android:onClick="onNavButtonClick"
+			android:src="@drawable/ic_launcher"
+			/>
+    <ImageButton 
+      		android:background="@drawable/grau"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="30" 
+			android:id="@+id/ibt_ernplan"
+			android:text="Zwei-Tage"
+			android:onClick="onNavButtonClick" 
+			android:src="@drawable/ic_launcher"
+			/>
+    <ImageButton 
+      		android:background="@drawable/grau"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="30" 
+			android:id="@+id/ibt_ernplan"
+			android:text="Woche"
+			android:onClick="onNavButtonClick" 
+			android:src="@drawable/ic_launcher"
+			/>
+    
+	</LinearLayout>
+
+</RelativeLayout>
