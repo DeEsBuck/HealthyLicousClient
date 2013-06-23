@@ -41,8 +41,7 @@ public class DataHandler {
 			for (String r : result) {
 				user = r;
 			}
-			// Control output
-			// System.out.println(items.getItems().toString());
+		
 		} else
 			System.out.println("Ungültig");
 
@@ -63,8 +62,7 @@ public class DataHandler {
 			for (String r : result) {
 				id = r;
 			}
-			// Control output
-			// System.out.println(items.getItems().toString());
+			
 		} else
 			System.out.println("Ungültig");
 		return id;
@@ -182,9 +180,7 @@ public class DataHandler {
 				result = r;
 			}
 		}
-		// else {
-		// System.out.println("kein Eintrag");
-		// }
+
 		return result;
 	}
 
@@ -204,9 +200,7 @@ public class DataHandler {
 				result = r;
 			}
 		}
-		// else {
-		// System.out.println("kein Eintrag");
-		// }
+	
 		return result;
 	}
 
@@ -226,9 +220,7 @@ public class DataHandler {
 				result = r;
 			}
 		}
-		// else {
-		// System.out.println("kein Eintrag");
-		// }
+	
 		return result;
 	}
 
@@ -248,9 +240,7 @@ public class DataHandler {
 				result = r;
 			}
 		}
-		// else {
-		// System.out.println("kein Eintrag");
-		// }
+	
 		return result;
 	}
 
@@ -326,11 +316,9 @@ public class DataHandler {
 				String[] wert = ma.group().split("</" + regExp[i] + ">");
 				for (String r : wert) {
 					werteListe[i] = r;
-					// System.out.println(regExp[i] + ": " + result);
 				}
 			}
-			// else
-			// System.out.println("kein Eintrag");
+		
 		}
 
 		return werteListe;

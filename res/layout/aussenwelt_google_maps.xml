@@ -4,7 +4,7 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:background="@null"
-	>
+	>	
 	<com.google.android.maps.MapView
 		android:id="@+id/mv_aussenwelt_google_maps"
 		android:layout_width="fill_parent"

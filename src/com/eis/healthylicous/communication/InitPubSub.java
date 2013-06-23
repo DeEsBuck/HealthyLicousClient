@@ -7,7 +7,7 @@ import org.jivesoftware.smackx.pubsub.provider.SubscriptionProvider;
 
 import android.util.Log;
 
-
+	//Namespaces bekannt machen für die aSmack API
 public class InitPubSub {
 	public static void init() {
 

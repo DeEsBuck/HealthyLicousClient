@@ -14,9 +14,8 @@ import com.eis.healthylicous.communication.ConnectionHandler;
 import com.eis.healthylicous.communication.ConnectionTask;
 import com.eis.healthylicous.communication.InitPubSub;
 
-	
 	public class MainActivity extends ListActivity{
-		//Liste der Klassen
+		//Liste der Klassennamen
 		String classes[] = { "Ernaehrungsplan" ,  "Statistiken" , "Strecken" , "Einstellungen" };
 		
 		private static final String HOST = "192.168.178.89";
@@ -33,7 +32,6 @@ import com.eis.healthylicous.communication.InitPubSub;
 			InitPubSub.init();
 			
 			new ConnectionTask().execute();
-			Log.d("LALALALALA" , "BAJBKABKABKABHIUAGUI");
 			
 			setListAdapter(new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, classes));
 			Log.d("Hauptmenu", "aktiv");

@@ -35,6 +35,7 @@
 		android:id="@+id/nbt_Tag"			
 		android:text="Tag"
 		android:onClick="onNavButtonClick"
+		android:background="@color/dunkelgrau"
 		/>
         <Button
         android:layout_width="fill_parent"
@@ -51,50 +52,93 @@
 		android:layout_weight="10" 
 		android:id="@+id/nbt_Woche"
 		android:text="Woche"
-		android:onClick="onNavButtonClick" 
+		android:onClick="onNavButtonClick"
+		android:background="@color/dunkelgrau" 
 		/>
 	</LinearLayout>	
-	<LinearLayout
+	<TableLayout
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
 		android:layout_weight="1"
 		android:orientation="vertical"
 		>
 		<TextView
-			android:text="@string/tx_zeile1"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			/>
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+			<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+				<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+					<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
 		<TextView
-			android:text="@string/tx_zeile2"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			/>
-		<TextView
-			android:text="@string/tx_zeile3"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			/>
-		<TextView
-			android:text="@string/tx_zeile4"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			/>
-		<TextView
-			android:text="tx_zeile5"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			/>
-		<TextView
-			android:text="tx_zeile6"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			/>
-	</LinearLayout>
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+			<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+				<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+					<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+						<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+							<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+				<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+					<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+						<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Zelle"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+	</TableLayout>
 </TableLayout>

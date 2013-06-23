@@ -4,211 +4,16 @@
     <string name="action_settings">Settings</string>
 	
     <!-- Schaltflächen -->
-    
-    <string name="sf_activities">Activities</string>
-    <string name="sf_activities_unteractivity">Unteractivity aufrufen</string>
-    <string name="sf_activities_unteractivity_mit_antwort">Unteractivity befragen</string>
-	<string name="sf_activities_unteractivity_antwort_geben">Ich hab\'s!</string>
-	
-    <string name="sf_intents">Intents</string>
-	<string name="sf_intents_telefon">Telefonnummer wählen</string>
-	<string name="sf_intents_sms">SMS schreiben</string>
-	<string name="sf_intents_email">E-Mail schreiben</string>
-	<string name="sf_intents_browser">Browser öffnen</string>
+
 	<string name="sf_intents_karte">Karte zeigen</string>
-	<string name="sf_intents_navigation">Navigieren</string>
-	<string name="sf_intents_streetview">Street View</string>
-	
-    <string name="sf_layouts">Layouts</string>
-	<string name="sf_layouts_frame">Frame</string>
-	<string name="sf_layouts_linear">Linear</string>
-	<string name="sf_layouts_relativ">Relativ</string>
-	<string name="sf_layouts_tabelle">Tabelle</string>
-	<string name="sf_layouts_absolut">Absolut</string>
-	<string name="sf_layouts_grid">Grid</string>
-	<string name="sf_layouts_tab">Tabs</string>
-	<string name="sf_layouts_list">Liste</string>
-	
 	<string name="sf_layouts_relativ_okay">OK</string>
 	<string name="sf_layouts_relativ_abbrechen">Abbrechen</string>
-	
-	<string name="sf_views">Views</string>
-	<string name="sf_views_button">Schaltfläche</string>
-	
-	<string name="sf_menues">Menüs</string>
-	<string name="sf_menues_kontextmenue">lang tippen/klicken</string>
-	<string name="sf_menues_icons">Menü-Icons</string>
-	
-	<string name="sf_benachrichtigungen">Benachrichtigungen</string>
-	<string name="sf_benachrichtigungen_ausloesen">Benachrichtigung auslösen</string>
-
-	<string name="sf_dialogs_toasts">Dialogs &amp; Toasts</string>
-    <string name="sf_dialogs_toast_toast_aufrufen">Toast aufrufen</string>
-    <string name="sf_dialogs_toasts_dialog_einfach">einfach</string>
-    <string name="sf_dialogs_toasts_dialog_auswahl">mit Auswahl</string>
-    <string name="sf_dialogs_toasts_dialog_mehrfach">mit Mehrfachauswahl</string>
-    <string name="sf_dialogs_toasts_dialog_einzel">mit Einzelauswahl</string>
-    <string name="sf_dialogs_toasts_dialog_custom">mit bel. Layout</string>
-    <string name="sf_dialogs_toasts_dialog_einfach_angepasst">einfach, angepasst</string>
-
-	<string name="sf_daten">Datenzugriff</string>
-	<string name="sf_daten_adapter">Listen &amp; Adapter</string>
-	<string name="sf_daten_einfacheListen">einfache Listen</string>
-	<string name="sf_daten_einstellungen">Einstellungen</string>
-	<string name="sf_daten_dateisystem">Dateisystem</string>
-	<string name="sf_daten_dateisystem_laden">Datei laden</string>
-	<string name="sf_daten_dateisystem_speichern">Datei speichern</string>
-	<string name="sf_daten_datenbanken">Datenbanken</string>
-	<string name="sf_daten_datenbanken_einfuegen">Schiffsklasse einfügen</string>
-	<string name="sf_daten_content_provider">Content Provider</string>
-
-	<string name="sf_hintergrund">Hintergrund-Aktivitäten</string>
-	<string name="sf_hintergrund_broadcasts">Broadcasts</string>
-	<string name="sf_hintergrund_broadcast_senden">Broadcast senden</string>
-
-	<string name="sf_hintergrund_services">Services</string>
-	<string name="sf_hintergrund_services_starten">Service starten</string>
-	<string name="sf_hintergrund_services_stoppen">Service stoppen</string>
-
-	<string name="sf_aussenwelt">Außenwelt</string>
-	<string name="sf_aussenwelt_internet">Internet</string>
-	<string name="sf_aussenwelt_internet_go">Go</string>
-	<string name="sf_aussenwelt_sms">SMS empfangen/senden</string>
-	<string name="sf_aussenwelt_sms_empfangen">SMS empfangen</string>
-	<string name="sf_aussenwelt_sms_senden">SMS senden</string>
-	
 	<string name="sf_aussenwelt_google_maps">Google-Maps-API</string>
-	
-	<string name="sf_multimedia">Multimedia</string>
-	<string name="sf_multimedia_sound">Sound</string>
-	<string name="sf_multimedia_sound_play">Sound abspielen</string>
-	<string name="sf_multimedia_video">Video</string>
-	<string name="sf_multimedia_bilder">Bilder</string>
-	<string name="sf_multimedia_bilder_laden">Bild laden</string>
-	<string name="sf_multimedia_qrcode_laden">QR-Code laden</string>
 
     <!-- TextViews -->
-    <string name="tx_startseite_titel">Demo-Referenz</string>
-    <string name="tx_activities_titel">Activities</string>
-    <string name="tx_activities_unteractivity">Sie sind in der Unteractivity!</string>
-    <string name="tx_activities_unteractivity_mit_antwort">Lass mich überlegen…</string>
-    <string name="tx_activities_unteractivity_frage">Ihre Frage:</string>
-    
-    <string name="tx_intents_titel">Intents</string>
-    
-    <string name="tx_layouts_titel">Layouts</string>
-    <string name="tx_layouts_relativ_texteingabe">Ihre Texteingabe:</string>
-    <string name="tx_layouts_liste_leer">keine Daten gefunden.</string>
-    
-    <string name="tx_views_titel">Views</string>
-    <string name="tx_views_textview">TextView</string>
-    <string name="tx_views_textview_inhalt">Labeltext</string>
-    <string name="tx_views_button">Button</string>
-    <string name="tx_views_imageView">ImageView</string>
-    <string name="tx_views_imageButton">ImageButton</string>
-    <string name="tx_views_editText">EditText</string>
-    <string name="tx_views_checkBox">CheckBox</string>
-    <string name="tx_views_radioButton">RadioButton</string>
-    <string name="tx_views_spinner">Spinner</string>
-    <string name="tx_views_autoComplete">AutoComplete</string>
-    <string name="tx_views_datePicker">DatePicker</string>
-    <string name="tx_views_timePicker">TimePicker</string>
-    <string name="tx_views_analogClock">AnalogClock</string>
-    <string name="tx_views_digitalClock">DigitalClock</string>
-    
-    <string name="tx_menues_titel">Menüs</string>
-    <string name="tx_menues_optionsmenues">Optionsmenü</string>
-    <string name="tx_menues_optionsmenues_hint">
-    	Tippen Sie auf den Hardware-Menübutton Ihres Geräts, 
-    	um ein Optionsmenü anzuzeigen.
-    </string>
-    <string name="tx_menues_kontextmenues">Kontextmenüs</string>
-    <string name="tx_menues_kontextmenues_hint">
-    	Tippen Sie lange auf die Schaltfläche, 
-    	um das Kontextmenü anzuzeigen.
-    </string>
-    <string name="tx_menues_icons">vorhandene Menü-Icons</string>
-    <string name="tx_menues_icons_hint">
-    	Übersicht über in Android vorhandene Icons
-    	(Zugriff über \'android.R.drawable\')
-    </string>
-    <string name="tx_menues_opt_hilfe">Hilfe</string>
-    <string name="tx_menues_opt_einstellungen">Einstellungen</string>
-    <string name="tx_menues_opt_zurueck">zurück</string>
-    
-    <string name="tx_dialogs_toasts">Dialogs &amp; Toasts</string>
-    <string name="tx_dialogs_toasts_toast">Toast-Nachricht</string>
-    <string name="tx_dialogs_toasts_dialog">Dialogfenster</string>
-    <string name="tx_dialogs_toasts_titel_einfach">Schon gewusst:</string>
-    <string name="tx_dialogs_toasts_nachricht_einfach">
-    	Elefanten sind die einzigen Landsäugetiere,
-    	die nicht springen können.
-    </string>
-    <string name="tx_dialogs_toasts_titel_auswahl">Ihre Auswahl</string>
-    <string name="tx_dialogs_toasts_sf_einfach">Aha.</string>
-    
-    <string name="tx_benachrichtigungen">Benachrichtigungen</string>
-    <string name="tx_benachrichtigungen_ticker">Neue Nachricht eingetroffen!</string>
-    <string name="tx_benachrichtigungen_titel">Wer sagt\'s denn!</string>
-    <string name="tx_benachrichtigungen_nachricht">
-    	Wenn Sie diese Nachricht sehen, 
-    	haben Sie erfolgreich eine Benachrichtigung
-    	erstellt und aufgerufen.
-    </string>
-    
-    <string name="tx_daten">Daten</string>
-    <string name="tx_daten_adapter">Listen &amp; Adapter</string>
-    <string name="tx_daten_adapter_laenderliste">Länderliste</string>
-    <string name="tx_daten_adapter_fruchtliste">Früchte</string>
-	<string name="tx_daten_einfacheListen">Einfache Listen</string>
-	<string name="tx_daten_dateisystem">Dateisystem</string>
-	<string name="tx_daten_datenbanken">Datenbanken</string>
-	<string name="tx_daten_datenbanken_db_geoeffnet">Datenbank geöffnet</string>
-	<string name="tx_daten_datenbanken_db_geschlossen">Datenbank geschlossen</string>
-	<string name="tx_daten_datenbanken_einfuegenLabel">Neue Schiffsklasse:</string>
-	<string name="tx_daten_datenbanken_leer">keine Daten gefunden.</string>
-	<string name="tx_daten_contentProvider">Content Provider</string>
-	<string name="tx_daten_contentProvider_label">Kontakte</string>
-	<string name="tx_daten_contentProvider_leer">keine Kontakte gefunden.</string>
-	
-	<string name="tx_voreinstellungen">Voreinstellungen</string>
-	<string name="tx_voreinstellungen_allgemein">Allgemein</string>
-	<string name="tx_voreinstellungen_persoenliches">Persönliches</string>
-	<string name="tx_voreinstellungen_benutzer">Benutzername</string>
-	<string name="tx_voreinstellungen_lieblingsfarbe">Lieblingsfarbe</string>
-	<string name="tx_voreinstellungen_stimmung">Stimmung</string>
 
-	<string name="tx_hintergrund">Hintergrund-Aktivitäten</string>
-	<string name="tx_hintergrund_broadcasts">Broadcasts</string>
-	<string name="tx_hintergrund_broadcast_empfangen">Broadcast empfangen</string>
-	
-	<string name="tx_services">Services</string>
-	<string name="tx_services_service_gestartet">Service gestartet</string>
-	<string name="tx_services_service_gestoppt">Service gestoppt</string>
-	<string name="tx_services_service_meldung">Der Service läuft seit %DAUER Sekunden</string>
-    
-    <string name="tx_aussenwelt">Außenwelt</string>
-    <string name="tx_aussenwelt_internet">Internet</string>
-    <string name="tx_aussenwelt_internet_adresse">Internet-Adresse:</string>
-    <string name="tx_aussenwelt_sms">SMS empfangen/versenden</string>
-    <string name="tx_aussenwelt_sms_neu">Neue SMS</string>
-    
     <string name="tx_aussenwelt_google_maps">Google-Maps-API</string>
     
-    <string name="tx_multimedia">Multimedia</string>
-    <string name="tx_multimedia_sound">Sound</string>
-    <string name="tx_multimedia_sound_mediaplayer">via MediaPlayer</string>
-    <string name="tx_multimedia_sound_soundpool">via SoundPool</string>
-    <string name="tx_multimedia_video">Video</string>
-    <string name="tx_multimedia_bilder">Bilder</string>
-    <string name="tx_multimedia_bilder_qr">Bilder (z.B. QR)</string>
-    <string name="tx_multimedia_bilder_text">Text zum Kodieren:</string>
-    
-    <!--  Beispiele -->
-    <string name="bsp_einfacher_text">Einfacher Text</string>
-    <string name="bsp_text_quote">\'Text\' mit \"Anführungsstrichen\"</string>
-    <string name="bsp_text_formatiert">Ein <b>verstärkter</b> bzw. <i>hervorgehobener</i> Text</string>
-	
 	<!-- Farbnamen -->
 	<string name="col_rot">Rot</string>
 	<string name="col_gelb">Gelb</string>
@@ -216,20 +21,7 @@
 	<string name="col_blau">Blau</string>
 	
 	<!-- allgemeine Texte -->
-
-    <string name="tx_zeile1">Zeile 1</string>
-    <string name="tx_zeile2">Zeile 2</string>
-    <string name="tx_zeile3">Zeile 3</string>
-    <string name="tx_zeile4">Zeile 4</string>
-    
-    <string name="tx_zelle1">Zelle 1</string>
-    <string name="tx_zelle2">Zelle 2</string>
-    <string name="tx_zelle3">Zelle 3</string>
-    <string name="tx_zelle4">Zelle 4</string>
-    <string name="tx_zelle5">Zelle 5</string>
-
 	<string name="tx_male">male</string>
 	<string name="tx_female">female</string>
-
 
 </resources>

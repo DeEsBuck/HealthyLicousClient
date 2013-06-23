@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:orientation="vertical"
-	>
-	<LinearLayout
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1" >
+    <LinearLayout
 	    android:background="@drawable/einstellungenlang"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -47,22 +45,24 @@
 		android:id="@+id/nbt_Zweitage"			
 		android:text="2-Tage"
 		android:onClick="onNavButtonClick"
+		android:background="@color/dunkelgrau"
 		/>
    	 	<Button 
       	android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
 		android:layout_weight="30"  
-		android:id="@+id/nbt_tWoche"
+		android:id="@+id/nbt_Woche"
 		android:text="Woche"
 		android:onClick="onNavButtonClick" 
+		android:background="@color/dunkelgrau"
 		/>	
 	</LinearLayout>
+
 	<LinearLayout
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:layout_weight="1"
-		android:orientation="vertical"
-		>
+	    android:layout_width="fill_parent"
+	    android:layout_height="376dp"
+	    android:orientation="vertical" >
+
 		<Button
         	android:id="@+id/btn_kalorien" 
         	android:text="Nike+ API"
@@ -72,11 +72,10 @@
       		/>
 		<TextView
 		    android:id="@+id/txt_vorschlag"
-			android:text="Vorschlag"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			android:inputType="textMultiLine"
-			/>		
+		    android:layout_width="fill_parent"
+		    android:layout_height="match_parent"
+		    android:inputType="textMultiLine"
+		    android:text="hier kommen die Vorschläge" />
+		
 	</LinearLayout>
-</LinearLayout>
+</TableLayout>

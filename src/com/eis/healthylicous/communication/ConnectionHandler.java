@@ -22,15 +22,24 @@ import android.content.Intent;
 import android.util.Log;
 
 public class ConnectionHandler{
-
+	
+	/**
+	 * Folgend alle Methoden für die Kommunikation
+	 * @return
+	 */
+	
+	
 	String topicID;
 	DataHandler pub;
-//	public static final String TOPIC = "Kalories";
 	private static final String USER = "android";
 	private static final String PASSWORD = "openfire";
 			
 	static XMPPConnection xmppcon;
 
+	/**
+	 * Verbindung zum Server mit Namespaces
+	 * @return
+	 */
 	public ConnectionHandler(ConnectionConfiguration config) {
 		InitPubSub.init();
 		Log.d("HEALTHYCONTROLLER", "InitPubSub Success!");
@@ -40,10 +49,7 @@ public class ConnectionHandler{
 		xmppcon.connect();
 	}
 	
-	/**
-	 * 
-	 * @return
-	 */
+	
 	public String getUser() {
 		return xmppcon.getUser();
 	}
@@ -65,14 +71,7 @@ public class ConnectionHandler{
 //		return xmppcon.isAuthenticated();
 		}
 		
-	/**
-	 * alle XMPP Methoden werden hier aufgelistet
-	 */
-	public void publishItem() {
-		Log.d("XMPP", "publish");
-			
-	}
-
+	
 	public void disconnect() {
 		xmppcon.disconnect();
 	}

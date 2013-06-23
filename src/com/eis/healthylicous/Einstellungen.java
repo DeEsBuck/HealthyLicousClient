@@ -8,8 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
-//Klassennamem und als passende Menupunkt
 public class Einstellungen extends ListActivity {
+	//Liste der Klassennamen
 	String classes[] = { "Profil" , "Strecken" , "AGBs" , "Hilfe" }; 
 
 	@Override
@@ -25,7 +25,7 @@ public class Einstellungen extends ListActivity {
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 
-		// cheese listet die klassen auf
+		// "auswahl" listet die Klassen auf
 
 		super.onListItemClick(l, v, position, id);
 		String auswahl = classes[position];

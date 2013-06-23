@@ -1,7 +1,5 @@
 package com.eis.healthylicous;
 
-import org.jivesoftware.smack.XMPPException;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -33,4 +31,5 @@ public class Wochenplan extends Activity {
     		
     	}
     }
+  
 }

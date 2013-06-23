@@ -1,43 +1,41 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="20dp"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin" >
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/einstellungenlang"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/nbt_einstellungen"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onNavButtonClick" />
+    </LinearLayout>
 
     <Button
         android:id="@+id/btn_sim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Strecke simmulieren" />
-    
-   <!-- 
-	<Button
-			android:id="@+id/sf_intents_karte"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:text="@string/sf_intents_karte"
-			android:onClick="onNavButtonClick"
-			/>	-->
-		
 
     <Button
-		android:id="@+id/sf_aussenwelt_google_maps"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:layout_marginLeft="100dp"
-		android:text="@string/sf_aussenwelt_google_maps"
-		android:onClick="onButtonClick"	/> 
-    	
-    	<ImageView
-		android:id="@+id/iv_strecken"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:layout_weight="1"
-		android:background="@drawable/strecken"
-		/>
-    	
+        android:id="@+id/sf_intents_karte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onNavButtonClick"
+        android:text="@string/sf_intents_karte" />
+
+    <ImageView
+        android:id="@+id/iv_strecken"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/strecken" />
+
 </TableLayout>

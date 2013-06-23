@@ -6,10 +6,9 @@ import android.os.Bundle;
 import android.util.Log;
 
 public class Splash extends Activity{
-	
+	//Intro
 protected void onCreate(Bundle CandyLand) {
 		
-		// TODO Auto-generated method stub
 		super.onCreate(CandyLand);
 		setContentView(R.layout.splash);
 		
@@ -32,7 +31,6 @@ protected void onCreate(Bundle CandyLand) {
 	@Override
 	protected void onPause() {
 		Log.d("SPLASH", "abgeschlossen");
-		// damit er nicht wieder in den Startbilschirm zurückspringt
 		super.onPause();
 		finish();
 	}
